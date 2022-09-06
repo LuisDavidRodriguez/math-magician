@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- All the linters has been installed correctly
+- WebPack and React has been set-up correctly
+![image](https://user-images.githubusercontent.com/105079888/188658414-fce6fd3c-eb85-487b-91a2-dfe5601b9877.png)
+
 
 ## Available Scripts
 
