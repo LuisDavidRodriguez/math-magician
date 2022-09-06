@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'calculator';
+  src: url('../assets/fonts/Calculator.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'digital-7';
+  src: url('../assets/fonts/digital-7.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'digital-7';
+  src: url('../assets/fonts/digital-7-mono.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'digital-7';
+  src: url('../assets/fonts/digital-7-mono-italic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+.calculator-body {
+  width: 400px;
+  height: 400px;
+  background-color: aliceblue;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  background-color: black;
+  height: 20%;
+  padding: 5px;
+  color: white;
+  font-family: 'digital-7', sans-serif;
+  font-size: 45px;
+}
+
+.keyBoard {
+  height: 80%;
+  display: grid;
+  grid-template-areas:
+    "AC masmin percentage division"
+    "seven eight nine X"
+    "four five six minus"
+    "one two three add"
+    "zero zero decimal equals";
+}
+
+.pad {
+  border: 1px solid black;
+  font-weight: bold;
+  transition: all 0.3s linear;
+}
+
+.pad:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(97, 97, 97);
+}
+
+.operator {
+  background-color: rgb(158, 158, 158);
+}
+
+.operator:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.red {
+  background-color: rgb(255, 73, 73);
+}
+
+.red:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.blue {
+  background-color: rgb(89, 89, 253);
+}
+
+.blue:hover {
+  background-color: rgb(46, 46, 255);
+}
