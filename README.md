@@ -26,9 +26,13 @@
 
 ## Setup
 If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+- Clone the reop
+- cd into the project directory
+- npm install
+- npm start (to start/run the project)
 
 [Download the ZIP from this location](https://github.com/LuisDavidRodriguez/math-magician/archive/refs/heads/development.zip), or run the following [git](https://git-scm.com/downloads)
- command to clone the files to your machine:
+command to clone the files to your machine:
 
 ```bash
 git clone git@github.com:LuisDavidRodriguez/math-magician.git
