@@ -1,13 +1,10 @@
 # Math-Magician
 
-
-- All the linters has been installed correctly
-- WebPack and React has been set-up correctly
-![Mi video](https://user-images.githubusercontent.com/105079888/188669578-0538c98c-735f-4227-b4d8-811410c9dab7.gif)
-
 > Description the project.
-- Demostrate abilities using WebPack and React.
+This project demostrate the abilities working with React!
 
+You can see the calculator wrking :D
+![Mi video-1](https://user-images.githubusercontent.com/105079888/188981456-6ba359b2-4c2f-4adb-8c57-789aba558f7c.gif)
 
 
 ## Built With
@@ -26,7 +23,7 @@
 
 ## Setup
 If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
-- Clone the reop
+- Clone the repo
 - cd into the project directory
 - npm install
 - npm start (to start/run the project)
