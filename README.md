@@ -3,7 +3,7 @@
 > Description the project.
 This project demostrate the abilities working with React!
 
-You can see the calculator wrking :D
+You can see the calculator working :D
 ![Mi video-1](https://user-images.githubusercontent.com/105079888/188981456-6ba359b2-4c2f-4adb-8c57-789aba558f7c.gif)
 
 
