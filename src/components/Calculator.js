@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
 import '../styles/Calculator.css';
 
@@ -60,4 +60,8 @@ const KeyBoard = (props) => {
       <button type="button" onClick={handler} style={{ gridArea: 'equals' }} className="pad blue">=</button>
     </div>
   );
+};
+
+KeyBoard.propTypes = {
+  handler: PropTypes.func.isRequired,
 };
