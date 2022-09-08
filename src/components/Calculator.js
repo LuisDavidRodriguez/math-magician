@@ -1,39 +1,32 @@
-import React from 'react';
+import { useState } from 'react';
 import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
 import '../styles/Calculator.css';
 
-export default class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: '',
-      next: '',
-      operation: '',
-    };
-    this.handleClick = this.handleClick.bind(this);
-  }
+const Calculator = () => {
+  const [total, setTotal] = useState('');
+  const [next, setNext] = useState('');
+  const [operation, setOperation] = useState('');
 
-  handleClick(event) {
+  const handleClick = (event) => {
     const value = event.target.textContent;
-    const solution = calculate(this.state, value);
-    this.setState(solution);
-  }
+    const solution = calculate({ total, next, operation }, value);
+    setTotal(solution.total);
+    setNext(solution.next);
+    setOperation(solution.operation);
+  };
 
-  render() {
-    const { total, next, operation } = this.state;
-    return (
-      <div className="calculator-body">
-        <p className="display">
-          {total}
-          {operation}
-          {next}
-        </p>
-        <KeyBoard handler={this.handleClick} />
-      </div>
-    );
-  }
-}
+  return (
+    <div className="calculator-body">
+      <p className="display">
+        {total}
+        {operation}
+        {next}
+      </p>
+      <KeyBoard handler={handleClick} />
+    </div>
+  );
+};
 
 const KeyBoard = (props) => {
   const { handler } = props;
@@ -65,3 +58,5 @@ const KeyBoard = (props) => {
 KeyBoard.propTypes = {
   handler: PropTypes.func.isRequired,
 };
+
+export default Calculator;
