@@ -1,0 +1,16 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav-bar a {
+  margin: 5px;
+  text-decoration: none;
+  transition: all 0.5s linear;
+  color: black;
+}
+
+.nav-bar a:hover {
+  color: red;
+}

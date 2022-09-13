@@ -1,15 +1,21 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from '../NavBar/NavBar';
-import CalPage from '../CalcPage/CalcPage';
+import CalcPage from '../CalcPage/CalcPage';
 import Home from '../Home/Home';
+import Quote from '../Quote/Quote';
 import './App.css';
-import Calculator from '../Calculator/Calculator';
 
 const App = () => (
-  <div className="App">
-    <Calculator />
-  </div>
+  <BrowserRouter>
+    <NavBar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/Home" element={<Home />} />
+      <Route path="/Calculator" element={<CalcPage />} />
+      <Route path="/Quote" element={<Quote />} />
+    </Routes>
+  </BrowserRouter>
 );
 
 export default App;
