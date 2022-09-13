@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
-import '../styles/Calculator.css';
+import './Calculator.css';
 
 const Calculator = () => {
   const [total, setTotal] = useState('');

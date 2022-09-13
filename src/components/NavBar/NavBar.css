@@ -1,0 +1,22 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.nav-bar a {
+  margin: 5px;
+  text-decoration: none;
+  transition: all 0.5s linear;
+  color: black;
+}
+
+.nav-bar a:hover {
+  color: red;
+}

@@ -4,13 +4,14 @@
 This project demostrate the abilities working with React!
 
 You can see the calculator working :D
-![Mi video-1](https://user-images.githubusercontent.com/105079888/188981456-6ba359b2-4c2f-4adb-8c57-789aba558f7c.gif)
+![Mi video-3](https://user-images.githubusercontent.com/105079888/189945368-968a10e4-b67a-4738-bfa6-b45de94333f2.gif)
+
 
 
 ## Built With
 
 - JavaScript
-- SASS
+- CSS
 - HTML
 - WebPack
 - React
