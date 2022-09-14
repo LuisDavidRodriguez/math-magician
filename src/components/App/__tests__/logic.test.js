@@ -1,5 +1,5 @@
-import calculate from '../calculate';
-import operate from '../operate';
+import calculate from '../../logic/calculate';
+import operate from '../../logic/operate';
 
 describe('Testing Calculate', () => {
   it('Testing AC', () => {
@@ -33,7 +33,7 @@ describe('Testing Calculate', () => {
   });
 
   it('Any if is not true', () => {
-    // Testing return 43 to 46 if the object is not an object 
+    // Testing return 43 to 46 if the object is not an object
     // and the button is a number 0
     const object = '0';
     const buttonName = '0';
@@ -86,7 +86,6 @@ describe('Testing Operate', () => {
     const operation = '%';
 
     const answer = operate(number1, number2, operation);
-    console.log(answer);
     expect(answer).toBe('3');
   });
 });
