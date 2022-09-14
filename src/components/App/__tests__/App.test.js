@@ -36,6 +36,10 @@ test('Calculator firing events', () => {
   // okay yeh I found in the same file that says that in that way we use testID! when we have more
   // other elements with maybe the same info
   // https://derekndavis.com/posts/getbytestid-overused-react-testing-library
+  // how to tests lists
+  // https://derekndavis.com/posts/testing-lists-react-testing-library
+  // snapShots
+  // https://jestjs.io/docs/snapshot-testing
 
   render(<Calculator />);
   // screen.debug();
