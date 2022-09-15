@@ -1,0 +1,554 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calc page 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="cal-page"
+      >
+        <div
+          class="cal-title"
+        >
+          <p>
+            Let's do some Math!
+          </p>
+        </div>
+        <div
+          class="cal-body"
+        >
+          <div
+            class="calculator-body"
+          >
+            <p
+              class="display"
+              data-testid="display"
+            />
+            <div
+              class="keyBoard"
+            >
+              <button
+                class="pad"
+                style="grid-area: zero;"
+                type="button"
+              >
+                0
+              </button>
+              <button
+                class="pad"
+                style="grid-area: one;"
+                type="button"
+              >
+                1
+              </button>
+              <button
+                class="pad"
+                style="grid-area: two;"
+                type="button"
+              >
+                2
+              </button>
+              <button
+                class="pad"
+                style="grid-area: three;"
+                type="button"
+              >
+                3
+              </button>
+              <button
+                class="pad"
+                style="grid-area: four;"
+                type="button"
+              >
+                4
+              </button>
+              <button
+                class="pad"
+                style="grid-area: five;"
+                type="button"
+              >
+                5
+              </button>
+              <button
+                class="pad"
+                style="grid-area: six;"
+                type="button"
+              >
+                6
+              </button>
+              <button
+                class="pad"
+                style="grid-area: seven;"
+                type="button"
+              >
+                7
+              </button>
+              <button
+                class="pad"
+                style="grid-area: eight;"
+                type="button"
+              >
+                8
+              </button>
+              <button
+                class="pad"
+                style="grid-area: nine;"
+                type="button"
+              >
+                9
+              </button>
+              <button
+                class="pad operator"
+                style="grid-area: add;"
+                type="button"
+              >
+                +
+              </button>
+              <button
+                class="pad operator"
+                style="grid-area: minus;"
+                type="button"
+              >
+                -
+              </button>
+              <button
+                class="pad operator"
+                style="grid-area: division;"
+                type="button"
+              >
+                ÷
+              </button>
+              <button
+                class="pad operator"
+                style="grid-area: X;"
+                type="button"
+              >
+                x
+              </button>
+              <button
+                class="pad operator"
+                style="grid-area: percentage;"
+                type="button"
+              >
+                %
+              </button>
+              <button
+                class="pad red"
+                style="grid-area: AC;"
+                type="button"
+              >
+                AC
+              </button>
+              <button
+                class="pad operator"
+                style="grid-area: masmin;"
+                type="button"
+              >
+                +/-
+              </button>
+              <button
+                class="pad blue"
+                style="grid-area: decimal;"
+                type="button"
+              >
+                .
+              </button>
+              <button
+                class="pad blue"
+                style="grid-area: equals;"
+                type="button"
+              >
+                =
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="cal-page"
+    >
+      <div
+        class="cal-title"
+      >
+        <p>
+          Let's do some Math!
+        </p>
+      </div>
+      <div
+        class="cal-body"
+      >
+        <div
+          class="calculator-body"
+        >
+          <p
+            class="display"
+            data-testid="display"
+          />
+          <div
+            class="keyBoard"
+          >
+            <button
+              class="pad"
+              style="grid-area: zero;"
+              type="button"
+            >
+              0
+            </button>
+            <button
+              class="pad"
+              style="grid-area: one;"
+              type="button"
+            >
+              1
+            </button>
+            <button
+              class="pad"
+              style="grid-area: two;"
+              type="button"
+            >
+              2
+            </button>
+            <button
+              class="pad"
+              style="grid-area: three;"
+              type="button"
+            >
+              3
+            </button>
+            <button
+              class="pad"
+              style="grid-area: four;"
+              type="button"
+            >
+              4
+            </button>
+            <button
+              class="pad"
+              style="grid-area: five;"
+              type="button"
+            >
+              5
+            </button>
+            <button
+              class="pad"
+              style="grid-area: six;"
+              type="button"
+            >
+              6
+            </button>
+            <button
+              class="pad"
+              style="grid-area: seven;"
+              type="button"
+            >
+              7
+            </button>
+            <button
+              class="pad"
+              style="grid-area: eight;"
+              type="button"
+            >
+              8
+            </button>
+            <button
+              class="pad"
+              style="grid-area: nine;"
+              type="button"
+            >
+              9
+            </button>
+            <button
+              class="pad operator"
+              style="grid-area: add;"
+              type="button"
+            >
+              +
+            </button>
+            <button
+              class="pad operator"
+              style="grid-area: minus;"
+              type="button"
+            >
+              -
+            </button>
+            <button
+              class="pad operator"
+              style="grid-area: division;"
+              type="button"
+            >
+              ÷
+            </button>
+            <button
+              class="pad operator"
+              style="grid-area: X;"
+              type="button"
+            >
+              x
+            </button>
+            <button
+              class="pad operator"
+              style="grid-area: percentage;"
+              type="button"
+            >
+              %
+            </button>
+            <button
+              class="pad red"
+              style="grid-area: AC;"
+              type="button"
+            >
+              AC
+            </button>
+            <button
+              class="pad operator"
+              style="grid-area: masmin;"
+              type="button"
+            >
+              +/-
+            </button>
+            <button
+              class="pad blue"
+              style="grid-area: decimal;"
+              type="button"
+            >
+              .
+            </button>
+            <button
+              class="pad blue"
+              style="grid-area: equals;"
+              type="button"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Quote 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="quote-container"
+      >
+        <p>
+          Mathematics is bit about numbers, equations, computations, or algoriths: it is about understanding. - William Paul Thurston
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="quote-container"
+    >
+      <p>
+        Mathematics is bit about numbers, equations, computations, or algoriths: it is about understanding. - William Paul Thurston
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="home-container"
+      >
+        <div>
+          <h2>
+            Welcome to our page
+          </h2>
+        </div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, qui illo. Tempore harum sequi molestias dolorum ab quaerat repellendus minima. Minus architecto, deleniti iste provident consectetur quo magnam reiciendis quis harum eligendi quam maiores laboriosam incidunt. Consequatur, exercitationem alias id cupiditate amet velit, itaque veritatis, assumenda aliquam nihil molestiae rerum!
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, qui illo. Tempore harum sequi molestias dolorum ab quaerat repellendus minima. Minus architecto, deleniti iste provident consectetur quo magnam reiciendis quis harum eligendi quam maiores laboriosam incidunt. Consequatur, exercitationem alias id cupiditate amet velit, itaque veritatis, assumenda aliquam nihil molestiae rerum!
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home-container"
+    >
+      <div>
+        <h2>
+          Welcome to our page
+        </h2>
+      </div>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, qui illo. Tempore harum sequi molestias dolorum ab quaerat repellendus minima. Minus architecto, deleniti iste provident consectetur quo magnam reiciendis quis harum eligendi quam maiores laboriosam incidunt. Consequatur, exercitationem alias id cupiditate amet velit, itaque veritatis, assumenda aliquam nihil molestiae rerum!
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, qui illo. Tempore harum sequi molestias dolorum ab quaerat repellendus minima. Minus architecto, deleniti iste provident consectetur quo magnam reiciendis quis harum eligendi quam maiores laboriosam incidunt. Consequatur, exercitationem alias id cupiditate amet velit, itaque veritatis, assumenda aliquam nihil molestiae rerum!
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
