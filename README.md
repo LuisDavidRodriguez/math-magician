@@ -47,7 +47,7 @@ git clone git@github.com:LuisDavidRodriguez/math-magician.git
 👤 **Luis David Rodriguez Valades**
 
 - GitHub: [@githubhandle](https://github.com/LuisDavidRodriguez)
-- LinkedIn: [profile](https://www.linkedin.com/in/luis-david-rodriguez-valades-24a0a8239)
+- LinkedIn: [profile](https://www.linkedin.com/in/luis-david-rodriguez-valades)
 - Youtube: [chanel](https://www.youtube.com/channel/UChuA4SgdDYk2DHStsy7HEgQ)
 
 
